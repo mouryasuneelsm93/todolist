@@ -14,7 +14,9 @@
  	}
  	.jumbotron
  	{
- 		  background-image: linear-gradient(to right,  #b3c6ff, #4dff4d);
+ 		  background-image: linear-gradient(to right,  white, #4dff4d);
+ 		  box-shadow: 0px 0px 8px 8px red;
+ 		  border-radius: 0px;
  		
  	}
  	.r
