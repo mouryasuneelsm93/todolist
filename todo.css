@@ -1,14 +1,14 @@
 	h2{
  		
  		font-size: 80px;
- 		color: #ff4d4d;
+ 		color: black;
  		font-weight: bold;
  		font-family: 'Abril Fatface', cursive;
  		font-style: italic;
  	}
  	.jumbotron
  	{
- 		  background-image: linear-gradient(to right,  #ffb3b3, #f2ffe6);
+ 		  background-image: linear-gradient(to right,  #b3c6ff, #f2ffe6);
  		
  	}
  	.r
