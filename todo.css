@@ -5,11 +5,11 @@
  		font-weight: bold;
  		font-family: 'Abril Fatface', cursive;
  		font-style: italic;
-		text-shadow: 2px 2px red;
+ 		text-shadow: 2px 2px red;
  	}
  	.jumbotron
  	{
- 		  background-image: linear-gradient(to right,  #b3c6ff, #f2ffe6);
+ 		  background-image: linear-gradient(to right,  #b3c6ff, #4dff4d);
  		
  	}
  	.r
@@ -24,10 +24,13 @@
 	margin-left: 0px;
 	margin-right: 0px;
 }
-
-
 h1
 {
 	color:grey;
 	font-style: italic;
+}
+h3
+{
+	color:rgba(0,100,250,.9);
+	font-weight: bold;
 }
