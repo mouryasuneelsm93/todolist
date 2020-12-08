@@ -1,3 +1,8 @@
+	body
+	{
+		background-image: linear-gradient(to right, rgba(200,100,0,.5), white);
+	}
+
 	h2{
  		
  		font-size: 80px;
@@ -26,11 +31,17 @@
 }
 h1
 {
-	color:grey;
+	color:rgba(0,0,0,.7);
 	font-style: italic;
 }
 h3
 {
 	color:rgba(0,100,250,.9);
 	font-weight: bold;
+}
+.l
+{
+	color:rgba(0,100,250,.9);
+	font-size: 25px;
+	text-transform: capitalize;
 }

@@ -8,14 +8,12 @@ $(document).ready(function(){
 			else
 			{
 				var a=$('#task').val();
-				
-				/*var two=$('<div id="d2"></div>');*/
-    			var chk = $("<div class='d'>"+'<input type="checkbox" name="chk"  class="checks" id="c1"/> '+'<label class="l">'+a+'</label>'+'<input type="text"  id="text1" class="text1"/>'+" "+'<input type="button" class="edit btn btn-primary" value="Edit" />'+" "+'<input type="button" value="Delete" class="del btn btn-danger" />'+" "+ '<input type="button" value="Update" class="update btn btn-primary">'+"</div>"+"<br />");
-    			$("#box").append(chk);	
-				$('#task').val(" ");  
-    			$('.del').on('click',function(){		
+    			var chk = $("<div class='d'>"+'<input type="checkbox" name="chk"  class="checks" id="c1"/> '+'<label class="l">'+a+'</label>'+" "+'<input type="text"  id="text1" class="text1"/>'+" "+'<input type="button" class="edit btn btn-primary" value="Edit" />'+" "+'<input type="button" value="Delete" class="del btn btn-danger" />'+" "+ '<input type="button" value="Update" class="update btn btn-primary">'+"</div>"+"<br />");
+    			$("#box").append(chk);
+    			
+                $('.del').on('click',function(){		
     			$(this).parent().remove();
-    			});$('#task').val(" ");  
+    			});
     			$('.edit').on('click',function()
     			{
     			var b=$(this).parent().text();
@@ -25,13 +23,12 @@ $(document).ready(function(){
     			{
                     if(text1.value.length==0)
                     {
-                        alert("please input value first");
+                    alert("please input value first");
                     }
                     else
                     {
     				var c=$(this).parent().children('.text1').val();
     				$(this).parent('.d').children('.l').text(c);
-                    
     				console.log(c);	
                     }			
     			});
@@ -46,5 +43,8 @@ $(document).ready(function(){
     				}
     			});
     		}
+        $('#task').val(" ");    
     	});
+
+
 	});
