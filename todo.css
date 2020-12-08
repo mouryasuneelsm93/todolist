@@ -5,6 +5,7 @@
  		font-weight: bold;
  		font-family: 'Abril Fatface', cursive;
  		font-style: italic;
+		text-shadow: 2px 2px red;
  	}
  	.jumbotron
  	{
