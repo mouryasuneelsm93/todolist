@@ -11,10 +11,11 @@ $(document).ready(function(){
 				
 				/*var two=$('<div id="d2"></div>');*/
     			var chk = $("<div class='d'>"+'<input type="checkbox" name="chk"  class="checks" id="c1"/> '+'<label class="l">'+a+'</label>'+'<input type="text"  id="text1" class="text1"/>'+" "+'<input type="button" class="edit btn btn-primary" value="Edit" />'+" "+'<input type="button" value="Delete" class="del btn btn-danger" />'+" "+ '<input type="button" value="Update" class="update btn btn-primary">'+"</div>"+"<br />");
-    			$("#box").append(chk);			
+    			$("#box").append(chk);	
+				$('#task').val(" ");  
     			$('.del').on('click',function(){		
     			$(this).parent().remove();
-    			});
+    			});$('#task').val(" ");  
     			$('.edit').on('click',function()
     			{
     			var b=$(this).parent().text();
