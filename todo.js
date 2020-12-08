@@ -8,7 +8,7 @@ $(document).ready(function(){
 			else
 			{
 				var a=$('#task').val();
-				$('#task').val(" ");
+				
 				/*var two=$('<div id="d2"></div>');*/
     			var chk = $("<div class='d'>"+'<input type="checkbox" name="chk"  class="checks" id="c1"/> '+'<label class="l">'+a+'</label>'+'<input type="text"  id="text1" class="text1"/>'+" "+'<input type="button" class="edit btn btn-primary" value="Edit" />'+" "+'<input type="button" value="Delete" class="del btn btn-danger" />'+" "+ '<input type="button" value="Update" class="update btn btn-primary">'+"</div>"+"<br />");
     			$("#box").append(chk);			
